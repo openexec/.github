@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/openexec/openexec/main/docs/assets/logo.svg" alt="OpenExec Logo" width="160"/>
+</p>
+
 # OpenExec: The Deterministic AI Operating System
 
 **Closing the gap between human intent and production-ready technical execution.**
