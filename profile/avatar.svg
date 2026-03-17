@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Rounded Square Background -->
+  <rect width="512" height="512" rx="100" fill="#0F172A"/>
+  
+  <!-- Subtle Inner Border -->
+  <rect x="10" y="10" width="492" height="492" rx="90" fill="none" stroke="#F97316" stroke-width="4" stroke-opacity="0.1"/>
+  
+  <!-- Terminal Prompt '>' -->
+  <path d="M120 140 L280 256 L120 372" 
+        fill="none" 
+        stroke="#F97316" 
+        stroke-width="60" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Blinking Cursor '_' style -->
+  <rect x="310" y="340" width="100" height="45" fill="white" rx="6">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" />
+  </rect>
+</svg>

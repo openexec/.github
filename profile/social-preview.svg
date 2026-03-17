@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  
+  <!-- Abstract Decorative Grid -->
+  <g opacity="0.05" stroke="#F97316" stroke-width="1">
+    <path d="M0 80h1280M0 160h1280M0 240h1280M0 320h1280M0 400h1280M0 480h1280M0 560h1280" />
+    <path d="M80 0v640M160 0v640M240 0v640M320 0v640M400 0v640M480 0v640M560 0v640M640 0v640M720 0v640M800 0v640M880 0v640M960 0v640M1040 0v640M1120 0v640M1200 0v640" />
+  </g>
+
+  <!-- Large Icon -->
+  <g transform="translate(100, 220) scale(0.4)">
+    <path d="M120 140 L280 256 L120 372" 
+          fill="none" 
+          stroke="#F97316" 
+          stroke-width="60" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <rect x="310" y="340" width="100" height="45" fill="white" rx="6"/>
+  </g>
+
+  <!-- Text -->
+  <text x="300" y="310" font-family="sans-serif" font-size="120" font-weight="bold" fill="white">
+    Open<tspan fill="#F97316">Exec</tspan>
+  </text>
+  <text x="305" y="380" font-family="sans-serif" font-size="32" fill="#94A3B8">
+    The Deterministic AI Operating System
+  </text>
+  
+  <!-- Subtext / URL -->
+  <rect x="300" y="420" width="220" height="40" rx="20" fill="#F97316" fill-opacity="0.1"/>
+  <text x="320" y="447" font-family="sans-serif" font-size="20" font-weight="bold" fill="#F97316">
+    openexec.io
+  </text>
+</svg>
